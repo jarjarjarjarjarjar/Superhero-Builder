@@ -1,0 +1,63 @@
+if (e.shiftkey == true && my_keydown() == '73') {
+        height = height + 10
+        width = width + 10
+    }
+    if (e.shiftkey == ture && my_keydown() == '68') {
+        height = height - 10
+        width = width - 10
+    }
+    if (my_keydown() == '66' && my_keydown() == '83') {
+        new_image('spiderman_body.png')
+    }
+    if (my_keydown() == '66' && my_keydown() == '72') {
+        new_image('hulk_body.png')
+    }
+    if (my_keydown() == '66' && my_keydown() == '73') {
+        new_image('ironman_body.png')
+    }
+    if (my_keydown() == '76' && my_keydown() == '83') {
+        new_image("spiderman_legs.png")
+    }
+    if (my_keydown() == '76' && my_keydown() == '72') {
+        new_image("hulk_legs.png")
+    }
+    if (my_keydown() == '76' && my_keydown() == '73') {
+        new_image("ironman_legs.png")
+    }
+    if (my_keydown() == '70' && my_keydown() == '83') {
+        new_image("spiderman_face.png")
+    }
+    if (my_keydown() == '70' && my_keydown() == '72') {
+        new_image("hulk_face.png")
+    }
+    if (my_keydown() == '70' && my_keydown() == '73') {
+        new_image("ironman_face.png")
+    }
+    if (my_keydown() == '70' && my_keydown() == '84') {
+        new_image("thor_face.png")
+    }
+    if (my_keydown() == '90' && my_keydown() == '83') {
+        new_image("spiderman_left_hand.png")
+    }
+    if (my_keydown() == '90' && my_keydown() == '72') {
+        new_image("hulk_left_hand.png")
+    }
+    if (my_keydown() == '90' && my_keydown() == '73') {
+        new_image("ironman_left_hand.png")
+    }
+    if (my_keydown() == '90' && my_keydown() == '84') {
+        new_image("thor_left_hand.png")
+    }
+    if (my_keydown() == '89' && my_keydown() == '83') {
+        new_image("spiderman_right_hand.png")
+    }
+    if (my_keydown() == '89' && my_keydown() == '72') {
+        new_image("hulk_right_hand.png")
+    }
+    if (my_keydown() == '89' && my_keydown() == '73') {
+        new_image("ironman_right_hand.png")
+    }
+    if (my_keydown() == '89' && my_keydown() == '84') {
+        new_image("thor_right_hand.png")
+    }
+}
